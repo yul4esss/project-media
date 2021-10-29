@@ -189,6 +189,7 @@
     .wn-block-date {
         margin-top: 20px;
         margin-bottom: 70px;
+        font-size: 12px;
     }
 
     .wn-block-text {
@@ -196,5 +197,12 @@
         font-size: 22px;
     }
 
+    .button a {
+        font-family: "Exo", sans-serif;
+        color: #fdac08;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 15px;
+    }
 
 }
