@@ -50,6 +50,40 @@
     font-family: 'Exo', sans-serif;
 }
 
+.block-title {
+    color: #fdac08;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Exo", sans-serif;
+}
+
+.wn-block-text {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.31;
+    color: white;
+}
+
+.wn-block-date {
+    font-family: Exo;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button a {
+    font-family: "Exo", sans-serif;
+    color: #fdac08;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: #fff;
+    transition: 0.7s;
+    text-decoration: underline;
+}
+
 .wn-channels,
 .wn-sports,
 .wn-coming-soon,
@@ -94,5 +128,20 @@
         margin-left: auto;
         margin-right: auto;
         padding-top: 25px;
+    }
+
+    .wn-text-pos {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 25px
+    }
+
+    .wn-block-date {
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+
+    .wn-block-text {
+        margin-top: 35px;
     }
 }
