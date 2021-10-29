@@ -94,6 +94,56 @@
     margin: auto;
 }
 
+@media screen and (min-width: 750px) and (max-width: 980px) {
+    .wn-block-pos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .wn-channels,
+    .wn-sports,
+    .wn-coming-soon,
+    .wn-tv-series {
+        width: 100%;
+    }
+
+    .wn-text-pos {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 25px
+    }
+
+    .wn-block-date {
+        margin-top: 20px;
+        margin-bottom: 70px;
+        font-size: 12px;
+    }
+
+    .block-title {
+        color: #fdac08;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: "Exo", sans-serif;
+    }
+
+    .wn-block-text {
+        margin-top: 35px;
+        font-size: 24px;
+    }
+
+    .wn-block img {
+        width: 90%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+    }
+}
+
 @media screen and (max-width: 750px) {
 
     .wn-channels,
@@ -143,5 +193,8 @@
 
     .wn-block-text {
         margin-top: 35px;
+        font-size: 22px;
     }
+
+
 }
