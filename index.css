@@ -1,52 +1,98 @@
-@media all and (max-width: 700px){
-    
-}
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
 * {
     margin: 0;
     padding: 0;
 }
-.whats-new-block {
+
+.wn-block {
     background-color: rgb(30, 43, 118);
-  }
+}
 
-.whats-new-block-pos img {
-    height: 323px;
+.wn-block img {
     width: 260px;
+    height: 323px;
     object-fit: cover;
-    margin: 25px;
-} 
-
-.whats-new-block-pos {
-    align-items: center;
 }
 
-.whats-new-paragraph {
+.wn-block-pos {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 25px;
+}
+
+.wn-para {
     text-align: center;
-}
-.line-wn {
+    font-family: 'Exo', sans-serif;
+    font-size: 58px;
+    line-height: 1.18;
+    font-weight: 700;
+    color: #fff;
     text-align: center;
+    letter-spacing: -0.021em;
 }
-.channels {
-    background-color: #7237df;
-    height: 372px;
-    width: 570px;
-  }
-  .sports {
-    background-color: #7237df;
-    height: 372px;
-    width: 570px;
-  }
-  .coming-soon {
-    background-color: #7237df;
-    height: 372px;
-    width: 570px;
-  }
-  .tv-series {
-    background-color: #7237df;
-    height: 372px;
-    width: 570px;
-  }
 
-  .sports, .channels, .coming-soon, .tv-series {
-      margin-top: 25px;
-  }
+.yellow-stripe {
+    background-color: rgb(253, 172, 8);
+    width: 58.5px;
+    height: 3px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.wn-text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 19px;
+    font-family: 'Exo', sans-serif;
+}
+
+.wn-channels,
+.wn-sports,
+.wn-coming-soon,
+.wn-tv-series {
+    width: 570px;
+    height: 615px;
+    background-color: #7237df;
+    margin: auto;
+}
+
+@media screen and (max-width: 750px) {
+
+    .wn-channels,
+    .wn-sports,
+    .wn-coming-soon,
+    .wn-tv-series {
+        width: 100%;
+        height: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .wn-channels,
+    .wn-sports,
+    .wn-coming-soon,
+    .wn-tv-series {
+        margin-bottom: 25px;
+    }
+
+    .wn-block {
+        width: 100%;
+    }
+
+    .wn-block img {
+        width: 90%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+    }
+}
