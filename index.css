@@ -27,15 +27,21 @@ html {
     letter-spacing: -.021em;
     line-height: 1.18;
     color: white;
+    margin-top: 35px;
 }
 
+.button-fc-pos{
+    margin-bottom: 60px;
+}
 .fc-para {
     font-family: 'Exo', sans-serif;
     font-size: 19px;
     line-height: 1.5;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 0;
     color: rgb(189,189,211);
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .fc-text {
@@ -50,19 +56,40 @@ html {
     padding: 55px;
 }
 
-/* @media screen and (max-width: 1120px) {
-    .fc-block img {
-        object-fit: cover;
-        width: 100%;
-    }
-} */
+.button-fc a {
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+    background-color: orange;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+}
 
-@media screen and (max-width: 980px) {
+.button-fc a:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.9s;
+}
+
+.yellow-stripe-fc {
+    background-color: rgb(253, 172, 8);
+    width: 4%;
+    height: 3px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1260px) {
     .fc-text {
-        object-fit: cover;
-        width: 100%;
+        background-size: cover;
     }
 }
+
+/* What's new */
 
 .wn-block {
     background-color: rgb(30, 43, 118);
