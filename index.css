@@ -6,6 +6,64 @@
     padding: 0;
 }
 
+html {
+    background-color: rgb(30, 43, 118);
+}
+
+/* FC Block */
+.fc-block {
+    background-color: rgb(30, 43, 118);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.fc-title {
+    font-family: 'Exo', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: -.021em;
+    line-height: 1.18;
+    color: white;
+}
+
+.fc-para {
+    font-family: 'Exo', sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: rgb(189,189,211);
+}
+
+.fc-text {
+    margin: 25px;
+}
+.fc-text {
+    background-image: url(img/free-con-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1165px 465px;
+    text-align: center;
+    padding: 55px;
+}
+
+/* @media screen and (max-width: 1120px) {
+    .fc-block img {
+        object-fit: cover;
+        width: 100%;
+    }
+} */
+
+@media screen and (max-width: 980px) {
+    .fc-text {
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
 .wn-block {
     background-color: rgb(30, 43, 118);
 }
@@ -129,6 +187,7 @@
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 30px;
         grid-row-gap: 30px;
+        margin: 25px;
     }
 
     .wn-channels,
@@ -174,7 +233,9 @@
 }
 
 @media screen and (max-width: 750px) {
-
+    .wn-block-pos {
+        margin: 25px;
+    }
     .wn-channels,
     .wn-sports,
     .wn-coming-soon,
